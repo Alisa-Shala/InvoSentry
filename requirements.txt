@@ -1,0 +1,15 @@
+# NOTE: sentence-transformers depends on torch. Install CPU-only torch FIRST
+# to avoid pulling multi-GB CUDA/GPU packages you don't need for this project:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+langgraph>=0.2.0
+langchain-core>=0.3.0
+anthropic>=0.40.0
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+streamlit>=1.38.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
+pydantic>=2.8.0
